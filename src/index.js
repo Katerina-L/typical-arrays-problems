@@ -5,8 +5,7 @@ exports.min = function min (array) {
             return 0;
         }
     else {
-            let minitem = Math.min(...array);
-            return minitem;
+            return Math.min(...array);
         }
 }
 
@@ -16,8 +15,8 @@ exports.max = function max (array) {
         return 0;
     }
     else {
-        let maxitem = Math.max(...array);
-        return maxitem ;
+        return  Math.max(...array);
+
     }
 }
 
